@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="numberContainer"><div>Запитання: </div></div>
+    <div class="container"></div>
+    <button type="button" id="submit" style="display: none;">Закінчити тест</button>
+    <div class="result"></div>
+
+    <script src="data.js"></script>
+    <script src="index.js"></script>
+
+    <script>
+        let a = new ViewData();
+        a.all();        
+    </script>
+</body>
+</html>

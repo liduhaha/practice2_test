@@ -1,0 +1,73 @@
+body {
+    background-color: #bad6db;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.number {
+    background-color: #067396;
+    border-radius: 5px;
+    width: 2vw;
+    height: 4vh;
+    text-align: center;
+    line-height: 4vh;
+    color: white;
+    padding: 4px;
+    min-width: 23px;
+}
+
+.numberContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.numberContainer div:first-of-type {
+    font-size: 25px;
+    text-decoration:underline;
+    margin-right: 40px;
+}
+
+.number:hover {
+    background-color: #05a8c0;
+    outline: 2px solid #067396;
+}
+
+.questionText {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 18px;
+}
+
+button {
+    margin: 10px 20px 0px 0px;
+    width: 8vw;
+    font-size: 15px;
+}
+
+button#submit {
+    width: 17vw;
+}
+
+.result {
+    font-size: 30px;
+    text-align: center;
+}
+
+#passed {
+    color: green;
+}
+
+#failed {
+    color: red;
+}
